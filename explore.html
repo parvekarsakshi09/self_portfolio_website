@@ -1,0 +1,166 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Explore</title>
+    <link rel="stylesheet" href="style.css">
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+        .navbar {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            background-color: #0f0e0e;
+            padding: 5px 10px;
+            color: white;
+        }
+        .navbar .logo {
+            height: 50px;
+        }
+        .navbar ul {
+            list-style: none;
+            display: flex;
+            margin: 0;
+            padding: 0;
+        }
+        .navbar ul li {
+            margin-left: 20px;
+        }
+        .navbar ul li a {
+            color: white;
+            text-decoration: none;
+            padding: 10px;
+            display: block;
+        }
+        .navbar ul li a:hover {
+            background-color: #575757;
+            border-radius: 5px;
+        }
+        main {
+            padding: 20px;
+            max-width: 1200px;
+            margin: auto;
+        }
+        section {
+            margin-bottom: 30px;
+            padding: 20px;
+            border-radius: 10px;
+        }
+        .achievements, .extra-curricular {
+            background-color: #fbfbfb;
+            padding: 20px;
+        }
+        .achievements h2, .extra-curricular h2 {
+            text-align: center;
+            font-size: 2em;
+            margin: 0;
+        }
+        .achievements-content, .extra-curricular-content {
+            display: flex;
+            justify-content: space-between;
+            flex-wrap: wrap;
+        }
+        .achievement-box, .activity-box {
+            width: 45%;
+            margin: 10px 0;
+            padding: 10px;
+            border: 1px solid #ddd;
+            border-radius: 5px;
+            background-color: #ffffff;
+        }
+        #achievement {
+          left:200px;
+        }
+        .achievement-box h3, .activity-box h3 {
+            margin-top: 0;
+        }
+        footer {
+            
+            background-color: #333;
+            color: white;
+            text-align: center;
+            padding: 20px;
+        }
+        footer a {
+            color: #ffc107;
+            text-decoration: none;
+        }
+        footer a:hover {
+            text-decoration: underline;
+        }
+        .social-links a {
+            color: #ffc107;
+          
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <nav class="navbar">
+            <img src="logo.png" alt="Logo" class="logo">
+            <ul>
+                <li><a href="portfolio.html">Home</a></li>
+                <li><a href="about.html">About</a></li>
+                <li><a href="contact-us.html">Contact Us</a></li>
+                <li><a href="explore.html">Explore</a></li>
+            </ul>
+        </nav>
+    </header>
+    <main>
+        <section class="achievements">
+            <h2>Achievements</h2>
+            <div class="achievements-content">
+                <div class="achievement-box">
+                    <h3>Certificates</h3>
+                    <p>10+ Certificates from TCSion Digital for Etiquette training.</p>
+                </div>
+                <div class="achievement-box">
+                    <h3>Internship</h3>
+                    <p>Virtual Internship in TechnooHacks (1 month) focusing on Python.</p>
+                </div>
+                <div class="achievement-box">
+                    <h3>Student of the Year</h3>
+                    <p>Got Student of the Year award at school for AY 2017.</p>
+                </div>
+                <div class="achievement-box">
+                    <h3>Software Development</h3>
+                    <p>Got Third Prize in Software Development workshop (AY 2022).</p>
+                </div>
+                <div class="achievement-box" id="achievements">
+                    <h3>Python Course</h3>
+                    <p>Certificate on Completion of Python course from CodeChef.</p>
+                </div>
+            </div>
+        </section>
+        <section class="extra-curricular">
+            <h2>Extra-Curricular Activities</h2>
+            <div class="extra-curricular-content">
+                <div class="activity-box">
+                    <h3>Departmental Coordinator</h3>
+                    <p>At Training and Placement Cell (AY 2022-23) – Acts as an intermediary between T&P and students, conducted Superset verification.</p>
+                </div>
+                <div class="activity-box">
+                    <h3>Class Ambassador</h3>
+                    <p>Class Ambassador 1 (AY 2021-22) – Facilitated communication, organized activities, enhanced student experience.</p>
+                </div>
+            </div>
+        </section>
+    </main>
+    <footer>
+        <p>Contact me via email or phone: <br>
+           Email: <a href="mailto:parvekarsakshi09@gmail.com">parvekarsakshi09@gmail.com</a><br>
+           Phone: <a href="tel:+918793764834">+91 8793764834</a>
+        </p>
+        
+            <a href="https://github.com/parvekarsakshi09" target="_blank">GitHub</a> |
+            <a href="https://www.linkedin.com/in/sakshi-parvekar-55a63925b/?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app" target="_blank">LinkedIn</a>
+       
+    </footer>
+</body>
+</html>

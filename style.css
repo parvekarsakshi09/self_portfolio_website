@@ -1,0 +1,272 @@
+/* Reset some default styles */
+body, h1, h2, h3, p, ul, li {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    color: #333;
+    background-color: #e0f7fa; 
+}
+
+/* Navigation Bar */
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 5px 10px;
+    background-color: #000000;
+}
+
+.navbar .logo {
+    height: 40px;
+}
+
+.navbar ul {
+    display: flex;
+    list-style: none;
+}
+
+.navbar li {
+    margin: 0 15px;
+}
+
+.navbar a {
+    color: white;
+    text-decoration: none;
+    font-size: 18px;
+    padding: 10px 15px;
+    border-radius: 5px;
+    transition: background-color 0.3s, color 0.3s;
+}
+
+.navbar a:hover, .navbar a:focus {
+    background-color: #575757;
+    color: #fff;
+}
+
+/* Hero Section */
+.hero {
+    background-color: #e0f7fa;
+    background-size: cover;
+    background-position: center;
+    position: relative;
+    height: 500px;
+    display: flex;
+    top:20px;
+    justify-content: space-between;
+    align-items: center;
+    padding: 60px 20px; 
+    /* background: linear-gradient(135deg, #7b1fa2, #e91e63); */
+    color: rgb(5, 5, 5);
+    text-align: center;
+}
+
+.hero-text {
+   
+    top:30px;
+    max-width: 800px;
+    z-index: 2;
+    
+}
+
+.hero-text h1 {
+    font-size: 48px;
+}
+
+.hero-text p {
+    font-size: 24px;
+    margin-top: 10px;
+}
+
+.cta-button {
+    background-color: #00bcd4;
+    color: white;
+    padding: 15px 30px;
+    border: none;
+    font-size: 18px;
+    cursor: pointer;
+    border-radius: 5px;
+    margin: 10px;
+    margin-top: 20px;
+    top:100px;
+    text-decoration: none;
+    transition: background-color 0.3s, transform 0.2s;
+}
+
+.cta-button:hover {
+    background-color: #008c9e;
+    transform: scale(1.05);
+}
+
+.profile-photo {
+    
+    border-radius: 100%;
+    border:5px solid #34494b;;
+    height: 400px;
+    width: 400px;
+    object-fit: cover;
+}
+.profile-photo:hover {
+    border:5px solid #2e3131;
+    height: 450px;
+    width: 450px;
+}
+
+
+/* Main Content */
+
+
+section {
+    margin-bottom: 40px;
+    border-radius: 12px;
+    padding: 20px;
+    
+    /* box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2); */
+}
+
+/* Projects Section */
+.projects {
+    background-color: #f5f5f5;
+    border: 1px solid #ddd;
+}
+
+.project {
+    padding: 15px;
+    margin-bottom: 15px;
+    border-radius: 8px;
+    background-color: #fff;
+    transition: background-color 0.3s, box-shadow 0.3s;
+}
+
+.project:hover {
+    background-color: #e0f7fa;
+    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.3);
+}
+
+/* Skills Section */
+.skills {
+    background-color: #e0f7fa;
+}
+
+.skill-bar {
+    height: 10px;
+    background-color: #00bcd4;
+    border-radius: 5px;
+    margin-top: 5px;
+    transition: background-color 0.3s;
+}
+
+.skill-bar:hover {
+    background-color: #0097a7;
+}
+
+/* Achievements Section */
+.achievements {
+    background-color: #c8e6c9;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+}
+
+.achievement-box {
+    background-color: #ffffff;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    padding: 20px;
+    width: calc(50% - 20px);
+    box-sizing: border-box;
+    transition: background-color 0.3s, transform 0.3s;
+}
+
+.achievement-box:hover {
+    background-color: #d7ddd7;
+    transform: scale(1.02);
+}
+
+/* Extra-Curricular Section */
+.extra-curricular {
+    background-color: #c8e6c9;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+}
+
+.activity-box {
+    background-color: #ffffff;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    padding: 20px;
+    width: calc(50% - 20px);
+    box-sizing: border-box;
+    transition: background-color 0.3s, transform 0.3s;
+}
+
+.activity-box:hover {
+    background-color: #c4ccc5;
+    transform: scale(1.02);
+}
+
+/* Footer */
+footer {
+    background-color: #333;
+    color: white;
+    text-align: center;
+    padding: 0px;
+}
+
+footer p {
+    font-size: 18px;
+}
+
+.social-links a {
+    color: #00796b;
+    position: relative;
+    top:70px;
+    text-decoration: none;
+    margin: 30 20px;
+    transition: color 0.3s;
+}
+
+.social-links a:hover {
+    color: #008c9e;
+}
+
+.social-links {
+    display: flex;
+    justify-content: center;
+    gap: 15px; /* Space between icons */
+    margin-top: 20px;
+}
+
+.social-icon {
+    font-size: 40px;
+    color: white;
+    transition: color 0.3s, transform 0.3s;
+}
+
+.social-icon:hover {
+    color: #00bcd4; /* Change color on hover */
+    transform: scale(1.1);
+}
+
+footer {
+    background-color: #333;
+    color: white;
+    text-align: center;
+    padding: 20px;
+}
+footer a {
+    color: #ffc107;
+    text-decoration: none;
+}
+footer a:hover {
+    text-decoration: underline;
+}
+.social-links a {
+    color: #00bcd4;
+    margin: 0 10px;
+}
+

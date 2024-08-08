@@ -1,0 +1,211 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contact Us</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #f0f4f7;
+        }
+
+        .navbar {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            background-color: #080808;
+            padding: 5px 10px;
+            color: white;
+        }
+
+        .navbar .logo {
+            height: 50px;
+        }
+
+        .navbar ul {
+            list-style-type: none;
+            margin: 0;
+            padding: 0;
+            display: flex;
+            gap: 20px;
+        }
+
+        .navbar li {
+            display: inline;
+        }
+
+        .navbar a {
+            text-decoration: none;
+             color: #ffffff; 
+            font-size: 18px;
+            padding: 10px 15px;
+            border-radius: 5px;
+        }
+
+        .navbar a:hover {
+            background-color: #575757;
+            transition: background-color 0.3s;
+        }
+
+        .contact-container {
+            padding: 20px;
+            background-color: #e0f7fa;
+        }
+
+        .contact-header {
+            text-align: center;
+            margin-bottom: 30px;
+        }
+
+        .contact-header h1 {
+            font-size: 36px;
+            color: #00796b;
+        }
+
+        .contact-header p {
+            font-size: 20px;
+            color: #004d40;
+        }
+
+        .contact-form {
+            max-width: 800px;
+            margin: 0 auto;
+            background-color: #ffffff;
+            border-radius: 8px;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+            padding: 30px;
+            font-size: 18px;
+        }
+
+        .contact-form input[type="text"],
+        .contact-form input[type="email"],
+        .contact-form input[type="date"],
+        .contact-form input[type="number"] {
+            width: calc(100% - 22px);
+            padding: 10px;
+            margin: 10px 0;
+            border: 1px solid #00796b;
+            border-radius: 5px;
+            font-size: 16px;
+        }
+
+        .contact-form input[type="submit"] {
+            background-color: #00796b;
+            color: white;
+            padding: 15px 20px;
+            border: none;
+            border-radius: 5px;
+            cursor: pointer;
+            font-size: 18px;
+            transition: background-color 0.3s, transform 0.2s;
+        }
+
+        .contact-form input[type="submit"]:hover {
+            background-color: #004d40;
+            transform: scale(1.05);
+        }
+
+        .contact-links {
+            text-align: center;
+            margin-top: 30px;
+        }
+
+        .contact-links h2 {
+            font-size: 28px;
+            color: #00796b;
+            margin-bottom: 20px;
+        }
+
+        .contact-links a {
+            display: inline-block;
+            text-decoration: none;
+            color: #ffffff;
+            background-color: #004d40;
+            padding: 15px 25px;
+            border-radius: 8px;
+            font-size: 18px;
+            margin: 10px;
+            transition: background-color 0.3s, transform 0.2s;
+        }
+
+        .contact-links a:hover {
+            background-color: #00796b;
+            transform: scale(1.05);
+        }
+
+        .contact-image {
+            width: 100%;
+            height: auto;
+            border-radius: 8px;
+        }
+        footer {
+            background-color: #333;
+            color: white;
+            text-align: center;
+            padding: 20px;
+        }
+        footer a {
+            color: #ffc107;
+            text-decoration: none;
+        }
+        footer a:hover {
+            text-decoration: underline;
+        }
+        .social-links a {
+            color: #ffc107;
+            margin: 0 10px;
+        }
+    </style>
+</head>
+<body>
+    <div class="navbar">
+        <img src="logo.png" alt="Logo" class="logo">
+        <ul>
+            <li><a href="portfolio.html">Home</a></li>
+            <li><a href="about.html">About</a></li>
+            <li><a href="contact-us.html">Contact Us</a></li>
+            <li><a href="explore.html">Explore</a></li>
+        </ul>
+    </div>
+
+    <div class="contact-container">
+        <div class="contact-header">
+            <h1>Contact Me</h1>
+            <p>Fill out the form below to get in touch with me.</p>
+        </div>
+        
+        <div class="contact-form">
+            <form>
+                <input type="text" placeholder="Enter your name" required>
+                <input type="text" placeholder="Enter your address" required>
+                <input type="date" required>
+                <input type="email" placeholder="Enter your email" required>
+                <input type="number" placeholder="Enter your phone number" required>
+                <input type="submit" value="Submit Now">
+            </form>
+        </div>
+
+        <div class="contact-links">
+            <h2>Connect with me:</h2>
+            <a href="https://www.geeksforgeeks.org/user/parvekarsliaf/" target="_blank">geeksforgeeks</a>
+            <a href="https://www.codechef.com/users/parvekarsakshi" target="_blank">codechef</a>
+            <a href="https://www.hackerrank.com/profile/parvekarsakshi09">hackerrank</a>
+            
+        </div>
+    </div>
+
+    <footer>
+        <p>Contact me via email or phone: <br>
+           Email: <a href="mailto:parvekarsakshi09@gmail.com">parvekarsakshi09@gmail.com</a><br>
+           Phone: <a href="tel:+918793764834">+91 8793764834</a>
+        </p>
+        <div class="social-links">
+            <a href="https://github.com/parvekarsakshi09" target="_blank">GitHub</a> |
+            <a href="https://www.linkedin.com/in/sakshi-parvekar-55a63925b/?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app" target="_blank">LinkedIn</a>
+        </div>
+    </footer>
+</body>
+</html>

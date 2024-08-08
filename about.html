@@ -1,0 +1,215 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>About Us</title>
+    <link rel="stylesheet" href="style.css">
+    <style>
+        body {
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+            background-color: #f4f4f4;
+            color: #333;
+            
+        }
+        .navbar {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            background-color: #080808;
+            padding: 5px 10px;
+            color: white;
+        }
+        .navbar .logo {
+            height: 50px;
+        }
+        .navbar ul {
+            list-style: none;
+            display: flex;
+            margin: 0;
+            padding: 0;
+        }
+        .navbar ul li {
+            margin-left: 20px;
+        }
+        .navbar ul li a {
+            color: white;
+            text-decoration: none;
+            padding: 10px;
+            display: block;
+            transition: background-color 0.3s, border-radius 0.3s;
+        }
+        .navbar ul li a:hover {
+            background-color: #575757;
+            border-radius: 5px;
+        }
+        .hero {
+            background-image:url('about-us.png');
+            background-size: cover;
+            background-position: center;
+            height: 500px;
+            color: #00796b;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            text-align: center;
+            /* border-bottom: 5px solid #ffc107; */
+            
+        }
+        .hero h1 {
+            font-size: 2.8em;
+            margin: 0;
+            font-weight: 700;
+        }
+        .hero p {
+            font-size: 1.2em;
+            margin: 10px 0;
+        }
+        .cta-button {
+            padding: 10px 20px;
+            background-color: #ffc107;
+            color: #333;
+            border: none;
+            border-radius: 5px;
+            cursor: pointer;
+            font-size: 1em;
+            transition: background-color 0.3s, transform 0.3s;
+        }
+        .cta-button:hover {
+            background-color: #ffca28;
+            transform: scale(1.05);
+        }
+        .content {
+            padding: 30px;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+        }
+        .section {
+            width: 80%;
+            max-width: 1000px;
+            margin-bottom: 30px;
+            padding: 20px;
+            border-radius: 10px;
+            background-color: white;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+            transition: box-shadow 0.3s, background-color 0.3s;
+        }
+        .section:hover {
+            box-shadow: 0 6px 12px rgba(0, 0, 0, 0.2);
+            background-color: #f9f9f9;
+        }
+        .section h2 {
+            font-size: 2.5em;
+            color: #007bff;
+            margin-bottom: 15px;
+        }
+        .section h3 {
+            font-size: 1.8em;
+            color: #333;
+            margin-top: 0;
+        }
+        .section p {
+            font-size: 1.2em;
+            line-height: 1.6;
+        }
+        footer {
+            background-color: #333;
+            color: white;
+            text-align: center;
+            padding: 20px;
+        }
+        footer a {
+            color: #ffc107;
+            text-decoration: none;
+        }
+        footer a:hover {
+            text-decoration: underline;
+        }
+        .social-links a {
+            color: #ffc107;
+            margin: 0 0px;
+        }
+        
+        .social-links a:hover {
+            text-decoration: underline;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <nav class="navbar">
+            <img src="logo.png" alt="Logo" class="logo">
+            <ul>
+                <li><a href="portfolio.html">Home</a></li>
+                <li><a href="about.html">About</a></li>
+                <li><a href="contact-us.html">Contact Us</a></li>
+                <li><a href="explore.html">Explore</a></li>
+            </ul>
+        </nav>
+        <section class="hero">
+            <div>
+                <!-- <h1>About Me</h1>
+                <p>Learn more about my journey and experience as a web developer.</p> -->
+                <!-- <button class="cta-button">Contact Me</button> -->
+            </div>
+        </section>
+    </header>
+
+        <main>
+            <section class="projects">
+                <h2>Projects</h2>
+                <div class="project">
+                    <h3>Portfolio Website</h3>
+                    <p>A self-portfolio website developed using HTML, CSS, and JavaScript.</p>
+                </div>
+                <div class="project">
+                    <h3>Typing Master</h3>
+                    <p>Typing Master using Python to improve typing speed.</p>
+                </div>
+                <div class="project">
+                    <h3>Covid Management System</h3>
+                    <p>Covid Management System developed using C language.</p>
+                </div>
+            </section>
+            <section class="skills">
+                <h2>Skills</h2>
+                <div class="skill">
+                    <h3>C/C++</h3>
+                    <div class="skill-bar" style="width: 80%;"></div>
+                </div>
+                <div class="skill">
+                    <h3>Java</h3>
+                    <div class="skill-bar" style="width: 85%;"></div>
+                </div>
+                <div class="skill">
+                    <h3>Python</h3>
+                    <div class="skill-bar" style="width: 75%;"></div>
+                </div>
+                <div class="skill">
+                    <h3>HTML/CSS</h3>
+                    <div class="skill-bar" style="width: 90%;"></div>
+                </div>
+                <div class="skill">
+                    <h3>Bootstrap</h3>
+                    <div class="skill-bar" style="width: 70%;"></div>
+                </div>
+            </section>
+        </main>
+        
+    </main>
+    <footer>
+        <p>Contact me via email or phone: <br>
+           Email: <a href="mailto:parvekarsakshi09@gmail.com">parvekarsakshi09@gmail.com</a><br>
+           Phone: <a href="tel:+918793764834">+91 8793764834</a>
+        </p>
+        
+            <a href="https://github.com/parvekarsakshi09" target="_blank">GitHub</a> |
+            <a href="https://www.linkedin.com/in/sakshi-parvekar-55a63925b/?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app" target="_blank">LinkedIn</a>
+        
+    </footer>
+</body>
+</html>

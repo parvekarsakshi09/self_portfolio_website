@@ -1,0 +1,121 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portfolio</title>
+    <style>
+        body {
+            margin: 0;
+            font-family: Arial, sans-serif;
+            color: #333;
+        }
+        .nav {
+            position: fixed;
+            width: 100%;
+            background-color: #333;
+            color: #fff;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 60px;
+            z-index: 1000;
+        }
+        .nav ul {
+            list-style: none;
+            padding: 0;
+            margin: 0;
+            display: flex;
+        }
+        .nav li {
+            margin: 0 20px;
+        }
+        .nav a {
+            text-decoration: none;
+            color: #fff;
+            font-size: 18px;
+        }
+        .nav a:hover {
+            color: #00bfff;
+        }
+        .hero {
+            background: url('your-background-image.jpg') no-repeat center center/cover;
+            color: #fff;
+            text-align: center;
+            padding: 100px 0;
+        }
+        .hero h1 {
+            font-size: 48px;
+            margin: 0;
+        }
+        .hero p {
+            font-size: 24px;
+            margin: 20px 0;
+        }
+        .section {
+            padding: 50px;
+            text-align: center;
+        }
+        .section h2 {
+            font-size: 36px;
+            margin-bottom: 20px;
+        }
+        .section p {
+            font-size: 18px;
+            line-height: 1.6;
+        }
+        .card {
+            background-color: #f4f4f4;
+            border-radius: 10px;
+            padding: 20px;
+            margin: 20px;
+            box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+        }
+        .card h3 {
+            font-size: 24px;
+            margin-bottom: 10px;
+        }
+        .card p {
+            font-size: 16px;
+        }
+    </style>
+</head>
+<body>
+    <div class="nav">
+        <ul>
+            <li><a href="index.html">Home</a></li>
+            <li><a href="about.html">About</a></li>
+            <li><a href="projects.html">Projects</a></li>
+            <li><a href="contact-us.html">Contact</a></li>
+            <li><a href="resume.html">Resume</a></li>
+        </ul>
+    </div>
+    <div class="hero">
+        <h1>Welcome to My Portfolio</h1>
+        <p>Explore my work, projects, and achievements.</p>
+    </div>
+    <div class="section">
+        <h2>About Me</h2>
+        <p>Hi, I'm Sakshi Parvekar, a passionate IT engineering student with a keen interest in technology and development. Feel free to browse through my portfolio to learn more about my skills and experiences.</p>
+    </div>
+    <div class="section">
+        <h2>Projects</h2>
+        <div class="card">
+            <h3>Portfolio Website</h3>
+            <p>A self-built portfolio website showcasing my skills and projects using HTML, CSS, and JavaScript.</p>
+        </div>
+        <div class="card">
+            <h3>Typing Master</h3>
+            <p>A typing master application created using Python to improve typing speed and accuracy.</p>
+        </div>
+        <div class="card">
+            <h3>Covid Management System</h3>
+            <p>A Covid Management System developed in C to monitor and manage Covid-related data.</p>
+        </div>
+    </div>
+    <div class="section">
+        <h2>Contact Me</h2>
+        <p>Feel free to reach out through <a href="contact-us.html">Contact</a> page or connect with me on <a href="https://github.com/your-github-profile" target="_blank">GitHub</a> and <a href="https://www.linkedin.com/in/your-linkedin-profile/" target="_blank">LinkedIn</a>.</p>
+    </div>
+</body>
+</html>
